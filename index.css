@@ -1,5 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:wght@600&family=Hedvig+Letters+Serif:opsz@12..24&family=Inter&family=Lato&family=Lora:ital,wght@1,500&family=Merriweather:wght@300&family=Noto+Sans:wght@500&family=Playfair+Display&family=Poppins:wght@200&family=Roboto:ital,wght@1,300&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #191919;
+    color: #f3f8ff;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    flex-wrap: wrap;
 }
