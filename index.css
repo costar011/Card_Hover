@@ -62,5 +62,17 @@ body {
 }
 
 .card:hover .card__image img {
-  box-shadow: 0 -50px;
+  box-shadow: 0 -50px 50px #ffffff3d, 0 50px 50px #000000e4;
+  filter: blur(0px);
+}
+
+.card .card__content h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.card .card__content p {
+  font-size: 12px;
+  color: #f3f8ff7a;
+  line-height: 18px;
 }
